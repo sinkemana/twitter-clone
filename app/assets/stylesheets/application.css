@@ -192,7 +192,6 @@ h2 {
 
 /*feed page /first page after login*/
 .sidebar {
-  position: -webkit-sticky;
   position: fixed;
   left: 0px;
   border-right: 1px solid;
@@ -204,6 +203,7 @@ h2 {
   line-height: 30px;
   height: 700px;
   display: block;
+  background-color: black;
 }
 
 .navbar {
@@ -218,6 +218,8 @@ h2 {
   padding-top: 40px;
   color: white;
   overflow-block: hidden;
+  z-index: 2;
+  background-color: black;
 }
 
 .feedsbox {
@@ -227,6 +229,6 @@ h2 {
   width: 80%;
   height: 700px;
   float: right;
-  background-color: #532222;
   margin-top: 100px;
+  background-color: black;
 }
