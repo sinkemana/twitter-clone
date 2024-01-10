@@ -1,7 +1,10 @@
-<% if user_signed_in? %>
-  <h1>Welcome Home, <%= current_user.email %></h1>
-<%= link_to 'Sign out', destroy_user_session_path, data: { turbo_method: :delete } %>
-<% else %>
-  <h1>Home</h1>
-  <%= link_to 'Sign in', new_user_session_path %>
-<% end %>
+  <div class="background">
+  <%= image_tag "xlogo.webp", height: 30 , class:"homelogo" %>
+  <div class="box">
+    <h3>Happening now</h1>
+    <h2>Join today</h2>
+    <p>Already have an account?</p>
+    <%= link_to 'Sign in', new_user_session_path %>
+    <br />
+  </div>
+</div>

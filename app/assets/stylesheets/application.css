@@ -41,6 +41,17 @@ body {
   position: absolute;
   margin-right: 50px;
   cursor: pointer;
+  height: 20px;
+  background-size: cover;
+  display: block;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+.closeicon:hover {
+  shape-margin: inherit;
+  background-color: aqua;
+  border-color: white;
 }
 
 .logo {
@@ -115,6 +126,10 @@ input[type="password"] {
 .actions {
   text-align: center;
 }
+.actions:hover {
+  cursor: default;
+  color: aquamarine;
+}
 
 input[type="submit"] {
   background-color: #333;
@@ -144,4 +159,33 @@ h1 {
 
 .pathlink {
   color: aqua;
+}
+
+.pathlink:hover {
+  color: lime;
+}
+
+/*home page /starting page css*/
+.homelogo {
+  width: 60%;
+  height: 700px;
+}
+.background {
+  background-color: black;
+}
+
+.box {
+  width: 40%;
+  height: 700px;
+  margin-left: auto;
+  margin-top: -700px;
+}
+
+h3 {
+  font-size: 50px;
+  padding-top: 150px;
+}
+
+h2 {
+  font-size: 30px;
 }
