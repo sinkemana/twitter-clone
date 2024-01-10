@@ -189,3 +189,44 @@ h3 {
 h2 {
   font-size: 30px;
 }
+
+/*feed page /first page after login*/
+.sidebar {
+  position: -webkit-sticky;
+  position: fixed;
+  left: 0px;
+  border-right: 1px solid;
+  border-color: white;
+  color: #ffffff;
+  margin-top: 100px;
+  width: 20%;
+  padding-left: 50px;
+  line-height: 30px;
+  height: 700px;
+  display: block;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  border-bottom: 1px solid;
+  border-color: white;
+  padding-right: 100px;
+  height: 100px;
+  text-align: right;
+  padding-top: 40px;
+  color: white;
+  overflow-block: hidden;
+}
+
+.feedsbox {
+  overflow: hidden;
+  position: fixed right;
+  text-align: center;
+  width: 80%;
+  height: 700px;
+  float: right;
+  background-color: #532222;
+  margin-top: 100px;
+}
