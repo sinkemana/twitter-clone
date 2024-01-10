@@ -27,32 +27,40 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 600px;
-  height: 600px;
+  height: 625px;
   border: 1px solid #000;
   padding: 20px;
   text-align: center;
   align-items: center;
   background-color: #000;
-  margin-top: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 /*to go back */
 .closeicon {
   position: absolute;
-  margin-left: -300px;
+  margin-right: 50px;
   cursor: pointer;
 }
 
+.logo {
+  margin: auto;
+  height: 30%;
+}
+
 .subbox {
-  width: 300px;
+  width: 400px;
   height: 300px;
-  padding-left: 120px;
+  padding-left: 100px;
   background-color: #000;
 }
 
 /*login to to x*/
 h2 {
-  text-align: center;
+  text-align: left;
   color: white;
+  font-size: x-large;
+  font-style: initial;
 }
 /* Container for overall layout (adjust width as needed) */
 .container {
@@ -95,6 +103,7 @@ input[type="password"] {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px; /* Adjust as needed */
+  color: black;
 }
 
 /* Remember me checkbox */
