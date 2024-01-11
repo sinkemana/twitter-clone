@@ -21,34 +21,18 @@
 
 
   <div class="feedsbox">
-     <h1 class="font-bold text-4xl">Feeds</h1>
+    <div class="flex justify-between items-center">
     <%= link_to "New feed", new_feed_path, class: "rounded-lg py-3 px-5 bg-blue-600 text-white block font-medium" %>
-  </div>
-
- 
-
-
-
-
-<%#
-  <div class="flex justify-between items-center">
-    <h1 class="font-bold text-4xl">Feeds</h1>
-    <%= link_to "New feed", new_feed_path, class: "rounded-lg py-3 px-5 bg-blue-600 text-white block font-medium" %>
-   <%# 
-    <%= link_to 'Sign out', destroy_user_session_path, data: { turbo_method: :delete } %>
-<%# 
   </div>
 
   <div id="feeds" class="min-w-full">
     <%= render @feeds %>
-    <%# 
+    
   </div>
-  <div class="w-full">
-  <% if notice.present? %>
-   <%# 
-    <p class="py-2 px-3 bg-green-50 mb-5 text-green-500 font-medium rounded-lg inline-block" id="notice"><%= notice </p>
-  <% end 
 
-  %>
-  
+  <div class="w-full">
+    <% if notice.present? %>
+    <p class="py-2 px-3 bg-green-50 mb-5 text-green-500 font-medium rounded-lg inline-block" id="notice"></p><%= notice %>
+    <% end %>
+  </div>
 </div>
