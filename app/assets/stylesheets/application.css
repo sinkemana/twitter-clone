@@ -22,7 +22,7 @@ body {
   color: white;
 }
 
-/* main outer box*/
+/* main outer box
 .mainbox {
   margin-left: auto;
   margin-right: auto;
@@ -36,7 +36,7 @@ body {
   margin-top: 2%;
   margin-bottom: 2%;
 }
-/*to go back */
+/*to go back 
 .closeicon {
   position: absolute;
   margin-right: 50px;
@@ -47,17 +47,19 @@ body {
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
-}
+}*/
 .closeicon:hover {
   shape-margin: inherit;
   background-color: aqua;
   border-color: white;
 }
 
+/*
 .logo {
   margin: auto;
   height: 30%;
 }
+*/
 
 .subbox {
   width: 400px;
