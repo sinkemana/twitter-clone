@@ -1,10 +1,12 @@
-  <div class="background">
-  <%= image_tag "xlogo.webp", height: 30 , class:"homelogo" %>
-  <div class="box">
-    <h3>Happening now</h1>
-    <h2>Join today</h2>
-    <p>Already have an account?</p>
-    <%= link_to 'Sign in', new_user_session_path %>
+ <div class="flex bg-black h-screen">
+  <div class="flex-none w-3/5 relative">
+  <%= image_tag "xlogo.webp", class:"absolute inset-0 w-full h-full object-cover" %>
+  </div>
+  <div class="text-white py-24 space-y-4  w-full">
+    <h3 class="text-6xl bold">Happening now</h1>
+    <h2 class="text-4xl bold ">Join today</h2>
+    <p class="">Already have an account?</p>
+   <p class="cursor-pointer hover:text-blue-600"> <%= link_to 'Sign in', new_user_session_path %></p>
     <br />
   </div>
 </div>
