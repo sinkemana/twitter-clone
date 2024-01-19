@@ -1,15 +1,15 @@
 
-<div class="bg-black">
+<div class="bg-black text-white">
 
-     <div class="fixed top-0 w-full border-b border-white pr-10 h-100 text-right pt-40 text-white overflow-hidden z-2 ">
+        <div class=" fixed top-0 w-full border-b border-white h-1/6 text-right text-white overflow-hidden z-2 bg-red-200">
           <ul>
-            <div class="text-right">
+            <div class="text-right p-4 h-1/4 borde" >
             <li ><%= link_to 'Sign out', destroy_user_session_path, data: { turbo_method: :delete } %></li>
             </div>
           </ul>
         </div>
   
-  <div class="fixed left-0 border-r border-white text-white mt-100 w-1/5 pl-10 leading-10 h-700 ">
+  <div class=" fixed left-0 border-r border-white text-white mt-1/4 w-1/5 pl-10 leading-10 h-full bg-black">
   <ul>
     <li >Home</li>
     <li >Explore</li>
@@ -21,8 +21,9 @@
     </ul>
     </div>
 
-  <div class="fixed right-0 text-center w-4/5 h-700 float-right mt-100 text-white ">
-    <div class="flex justify-between items-center">
+  <<div class=" overflow-auto r-0 text-center w-4/5  float-right pt-1/4 bg-black">
+ 
+    <div >
     <%= link_to "New feed", new_feed_path %>
   </div>
 
@@ -33,7 +34,7 @@
 
   <div class="w-full">
     <% if notice.present? %>
-    <p class="py-2 px-3 bg-green-50 mb-5 text-green-500 font-medium rounded-lg inline-block" id="notice"></p><%= notice %>
+    <p  id="notice"></p><%= notice %>
     <% end %>
   </div>
 </div>
