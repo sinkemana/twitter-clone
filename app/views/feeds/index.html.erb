@@ -1,15 +1,15 @@
 
 <div class="bg-black text-white">
 
-        <div class=" fixed top-0 w-full border-b border-white h-1/6 text-right text-white overflow-hidden z-2 bg-red-200">
+        <div class=" fixed top-0 w-full border-b border-white h-1/6 text-right text-white overflow-hidden z-2 bg-black">
           <ul>
             <div class="text-right p-4 h-1/4 borde" >
             <li ><%= link_to 'Sign out', destroy_user_session_path, data: { turbo_method: :delete } %></li>
             </div>
           </ul>
         </div>
-  
-  <div class=" fixed left-0 border-r border-white text-white mt-1/4 w-1/5 pl-10 leading-10 h-full bg-black">
+  <div class="container mx-left text-white pt-12">
+  <div class=" fixed border-r border-white  w-1/5 pl-10 p-1/4 leading-10 h-full bg-black">
   <ul>
     <li >Home</li>
     <li >Explore</li>
@@ -20,9 +20,10 @@
     <li >More</li>
     </ul>
     </div>
+    </div>
 
-  <<div class=" overflow-auto r-0 text-center w-4/5  float-right pt-1/4 bg-black">
- 
+<div class="container-md mt-14 pt-14 ">
+    <div class=" overflow-auto r-0 text-center w-4/5 mt-1/2 float-right  bg-black">
     <div >
     <%= link_to "New feed", new_feed_path %>
   </div>
